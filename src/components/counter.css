@@ -1,0 +1,99 @@
+.mainBackground {
+  background: #eaeaf5;
+  width: 600px;
+  height: 545px;
+  padding: 10px;
+}
+
+.counterBar {
+  padding: 4px;
+  background-color: #dcdcff;
+  margin: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  color: #666699;
+  font-weight: bold;
+}
+
+.messageBox {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow: auto;
+  width: 600px;
+  height: 460px;
+}
+
+.message {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 12px;
+  background-color: #d1d1fd;
+  color: #666699;
+  margin-bottom: 15px;
+  position: relative;
+  margin: 1%;
+  border-radius: 2px;
+  width: 85%;
+  overflow-wrap: break-word;
+  float: right;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: #8181e4;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.inputForm {
+  width: 100%;
+  position: relative;
+  border-radius: 2px;
+  border: #d1d1fd;
+  background: #dcdcff;
+  padding: 8px;
+}
+.form {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 565px;
+  position: fixed;
+  top: 530px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 30px;
+  background: #666699;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d1d1fd;
+  position: relative;
+  bottom: 6px;
+  left: 5px;
+}
+
+.timestamp {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  color: #666699;
+  font-weight: bold;
+  float: right;
+  font-size: 12px;
+  margin-top: -18px;
+  position: relative;
+}
